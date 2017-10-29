@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Surfzania</title>
+</head>
+<body align="center" style="background-color:green;">
+
+<h1 style="font-family:verdana;" title="Title">SURFZANIA</h1>
+<br>
+<hr>
+<h2 title="Introduction">Welcome to the one and only Surfzania, teaching kids all about stand up surfing.
+If you want to know how to stand up on a board you know you've come to the right place.</h2>
+<br>
+<img title="Surfing" src="Surfing picture 2.jpg" alt="Great Conditions" style="width:1000px;height:1000px;">
+<br>
+<hr>
+<h2 title="Tip">A good day of surfing requires good local (the wind in the last couple of miles at the beach) winds. ... Onshore winds come from behind or from the side of the waves, turning a swell into surf that is bumpy and more difficult to ride. Ideally you want what is known as “clean surf.” A clean wave is one that is lightly hit by an offshore wind or no wind at all.</h2>
+<br>
+<img title="Onshorewind" src="Onshorewind.jpg" alt="Onshore Wind" style="width:1000px;height:1000px;">
+<style>
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.next {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.round {
+    border-radius: 50%;
+}
+</style>
+</head>
+<body>
+
+<br>
+
+
+<a href="Surfing2.html" class="next round">&#8250;</a>
+<br>
+<br>
+<br>
+
+<html>
+<head>
+<style>
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+</style>
+
+
+</head>
+<body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+<script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+</body>
+</html>
+
+
+
+
